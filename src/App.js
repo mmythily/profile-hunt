@@ -14,8 +14,11 @@ class App extends Component {
     }
   }
 
-  onSearchChange(event){
-    console.log(event);
+  onSearchChange=(event)=>{
+    this.setState({searchfield:event.target.value})
+    const filteredProfiles = this.state.profiles.filter(profiles =>{
+      return profiles.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+    })
   }
 
   render(){

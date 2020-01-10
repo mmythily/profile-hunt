@@ -11,7 +11,7 @@ const CardList = ({profiles}) => {
             id={profiles[i].id} 
             name={profiles[i].name} 
             email={profiles[i].email} 
-            />
+          />
         );
       })
       }
