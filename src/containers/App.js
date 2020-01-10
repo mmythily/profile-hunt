@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import CardList from './CardList';
-import SearchBox from './SearchBox';
-import {profiles} from './profiles';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll'
+import {profiles} from '../profiles';
 
 
 class App extends Component {
@@ -26,9 +27,11 @@ class App extends Component {
     
     return (
       <div className='tc'>
-        <h1> Profile Hunt </h1>
+        <h1> PROFILE HUNT </h1>
         <SearchBox searchChange={this.onSearchChange}/>
-        <CardList profiles={filteredProfiles}/>
+        <Scroll>
+          <CardList profiles={filteredProfiles}/>
+        </Scroll>
       </div>
     )
   }
