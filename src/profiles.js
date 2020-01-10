@@ -64,5 +64,11 @@ export const profiles = [
     name: 'Bill Gates',
     username: 'Billie',
     email: 'bill@microsoft.com'
+  },
+  {
+    id: 12,
+    name: 'Mythily Mudunuru',
+    username: 'mythily',
+    email: 'mythily.mudunuru@gmail.com'
   }
 ];

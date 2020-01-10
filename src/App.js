@@ -15,18 +15,20 @@ class App extends Component {
   }
 
   onSearchChange=(event)=>{
-    this.setState({searchfield:event.target.value})
-    const filteredProfiles = this.state.profiles.filter(profiles =>{
-      return profiles.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
-    })
+    this.setState({searchfield: event.target.value})
+    
   }
 
   render(){
+    const filteredProfiles = this.state.profiles.filter(profiles =>{
+      return profiles.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+    })
+    
     return (
       <div className='tc'>
         <h1> Profile Hunt </h1>
         <SearchBox searchChange={this.onSearchChange}/>
-        <CardList profiles={this.state.profiles}/>
+        <CardList profiles={filteredProfiles}/>
       </div>
     )
   }
