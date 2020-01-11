@@ -21,8 +21,8 @@ class App extends Component {
   }
 
   render(){
-    const filteredProfiles = this.state.profiles.filter(profiles =>{
-      return profiles.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+    const filteredProfiles = this.state.profiles.filter(profile =>{
+      return profile.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
     })
     
     return (
