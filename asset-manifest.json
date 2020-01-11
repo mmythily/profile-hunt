@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/profile-hunt/static/css/main.1bb78f92.chunk.css",
+    "main.js": "/profile-hunt/static/js/main.0dea72ec.chunk.js",
+    "main.js.map": "/profile-hunt/static/js/main.0dea72ec.chunk.js.map",
+    "runtime-main.js": "/profile-hunt/static/js/runtime-main.01c505e2.js",
+    "runtime-main.js.map": "/profile-hunt/static/js/runtime-main.01c505e2.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/profile-hunt/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.91541010.chunk.js": "/profile-hunt/static/js/2.91541010.chunk.js",
+    "static/js/2.91541010.chunk.js.map": "/profile-hunt/static/js/2.91541010.chunk.js.map",
+    "index.html": "/profile-hunt/index.html",
+    "precache-manifest.399b54c29d0edcd159aeedd7b0ff60b3.js": "/profile-hunt/precache-manifest.399b54c29d0edcd159aeedd7b0ff60b3.js",
+    "service-worker.js": "/profile-hunt/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/profile-hunt/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.1bb78f92.chunk.css.map": "/profile-hunt/static/css/main.1bb78f92.chunk.css.map",
+    "static/js/2.91541010.chunk.js.LICENSE": "/profile-hunt/static/js/2.91541010.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01c505e2.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.91541010.chunk.js",
+    "static/css/main.1bb78f92.chunk.css",
+    "static/js/main.0dea72ec.chunk.js"
+  ]
+}
